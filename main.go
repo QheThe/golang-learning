@@ -7,6 +7,7 @@ import (
 	"golang-learning/pointer"
 	"golang-learning/loop"
 	"golang-learning/sin"
+	"golang-learning/strOp"
 )
 
 func main() {
@@ -14,6 +15,10 @@ func main() {
 
 	fmt.Println("循环 ==========================================")
 	loop.For_loop()
+
+	fmt.Println("字符串操作 ==========================================")
+	strOp.HasPreAndSuff()
+	strOp.HasContain()
 
 	fmt.Println("指针 ==========================================")
 	pointer.MemAddress()
