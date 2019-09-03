@@ -27,3 +27,10 @@ func HasContain() {
 	fmt.Print(" ")
 	fmt.Printf("%t\n", strings.Contains(str, "is"))
 }
+
+// FindIndexOfCharacter - 查找 子字符 or 子字符串是否在 当前字符串中
+func FindIndexOfCharacter() {
+	str := "This is a string"
+	s := "i"
+	fmt.Printf("The index of %s is %d", s, strings.Index(s, str))
+}

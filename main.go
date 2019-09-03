@@ -19,6 +19,7 @@ func main() {
 	fmt.Println("字符串操作 ==========================================")
 	strOp.HasPreAndSuff()
 	strOp.HasContain()
+	strOp.FindIndexOfCharacter()
 
 	fmt.Println("指针 ==========================================")
 	pointer.MemAddress()
