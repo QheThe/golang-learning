@@ -14,6 +14,7 @@ func continue_section() {
 		fmt.Print(i)
 		fmt.Print("  ")
 	}
+	fmt.Println("")
 }
 
 func while_loop() {
@@ -28,7 +29,6 @@ func while_loop() {
 			break
 		}
 	}
-	fmt.Println("")
 }
 
 // break_inner - break 语句只会跳出单层循环
