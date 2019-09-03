@@ -5,11 +5,15 @@ import (
 	"golang-learning/concurrent"
 	"golang-learning/device"
 	"golang-learning/pointer"
+	"golang-learning/loop"
 	"golang-learning/sin"
 )
 
 func main() {
 	sin.Sin()
+
+	fmt.Println("循环 ==========================================")
+	loop.For_loop()
 
 	fmt.Println("指针 ==========================================")
 	pointer.MemAddress()
