@@ -1,4 +1,4 @@
-package strOp
+package strop
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 
 // HasPreAndSuff - 判断是否以 ** 前缀 or 后缀 结尾
 func HasPreAndSuff() {
-	var str string = "This is an example of string"
+	str := "This is an example of string"
 
 	// 判断前缀
 	fmt.Printf("T/F? Does the string \"%s\" have prefix %s?", str, "Th")
@@ -20,7 +20,7 @@ func HasPreAndSuff() {
 	fmt.Printf("%t\n", strings.HasSuffix(str, "asd"))
 }
 
-// HasContain 是否包含
+// HasContain - 是否包含
 func HasContain() {
 	str := "This is a string"
 	fmt.Printf("T/F? Does the string \"%s\" contain %s?", str, "is")
