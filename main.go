@@ -17,9 +17,9 @@ func main() {
 	loop.For_loop()
 
 	fmt.Println("字符串操作 ==========================================")
-	strOp.HasPreAndSuff()
-	strOp.HasContain()
-	strOp.FindIndexOfCharacter()
+	strop.HasPreAndSuff()
+	strop.HasContain()
+	strop.FindIndexOfCharacter()
 
 	fmt.Println("指针 ==========================================")
 	pointer.MemAddress()
