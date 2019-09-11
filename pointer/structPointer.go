@@ -2,6 +2,7 @@ package pointer
 
 import (
 	"fmt"
+	"reflect"
 )
 
 // Games - Games struct
@@ -21,8 +22,12 @@ func StructPointer() {
 	fmt.Println("whiteAblum", whiteAblum)
 
 	var wP *Games
+	fmt.Println("+++++ 输出变量类型 +++++++")
+	fmt.Println(reflect.TypeOf(wP))
+
 	wP = &whiteAblum
 
 	fmt.Println("wP", wP)
 	fmt.Println("wP", *wP)
+
 }
